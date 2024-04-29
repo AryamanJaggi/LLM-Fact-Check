@@ -5,9 +5,9 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import os
 
-credentials_path = r"C:\Users\aryam\Downloads\client_secret_41662120290-sukvumcl65cn2e26esphffp44il4elck.apps.googleusercontent.com.json"
-SCOPES = ['https://www.googleapis.com/auth/documents'] # Specifying this is allowing code to edit google docs. Might need to change cus I think I did this wrong
-auth_token_path = r"C:\Users\aryam\Downloads\token.json"  # json specifying user has allowed me to access drive
+credentials_path = r""
+SCOPES = [''] # Specifying this is allowing code to edit google docs. Might need to change cus I think I did this wrong
+auth_token_path = r""  # json specifying user has allowed me to access drive
 
 
 def auth_google_docs_api():
